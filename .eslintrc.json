@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "rules": {
+    "import/no-unresolved": "offline"
+  },
+  "extends": [
+    "next/babel",
+    "next/core-web-vitals",
+    "prettier"
+  ]
 }
